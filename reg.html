@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assest.css.registerStyle.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Registration</title>
+    
+    
+    <style>
+    @charset "ISO-8859-1";
+
+.mydiv1{ 
+
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right:0px ;
+}
+.mydiv2{
+width: 500px;
+height: 510px;
+margin: 30px 10px;
+padding: 30px 20px;
+ /* border: 5px solid black; */
+ border-bottom: 19px solid rgb(41, 182, 214);
+    border-left: 2px solid black;
+    border-right:2px solid black ;
+    border-top: 19px solid rgb(41, 182, 214);
+    border-radius: 20px;
+   font-size: 20px;
+font-family:sans-serif;
+ font-weight: bolder;
+ text-decoration: underline;
+ 
+}
+.mydiv3{
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border: 5px solid black;
+    border-radius: 8px;
+
+}
+.input{
+ width: 75%;
+ height: 30px;
+ padding: 5px 10px;
+ margin: 10px;
+ border-top: 0px;
+ border-left: 0px;
+ border-right:0px ;
+  border-bottom: 3px solid black;
+  font-size: 18px;
+  background:linear-gradient(rgb(206, 238, 235),rgb(225, 236, 229));
+ 
+}
+.btn-div{
+    width: 80%;
+    height: 50px;
+    border: 2px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+ .btn{
+    width: 70%;
+    height: 40px;
+    border: 2px;
+    border-radius: 30px;
+    /* background: linear-gradient(rgb(167, 6, 19),rgb(177, 93, 14), rgb(122, 5, 15)); */
+    background-color: rgb(41, 182, 214);
+    font-size: 18px;
+    font-weight: bolder;
+   
+
+ }
+
+ #user-img{ 
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(67, 9, 176), url(pic1.png));
+ }
+ body{
+    background:linear-gradient(rgb(206, 238, 235),rgb(225, 236, 229));
+ }
+    </style>
+</head>
+<body>
+    <div class="mydiv1">
+       <center> <div class="mydiv2">
+        <img src="pic3.png" id="user-img">
+         <font color = "black" >
+           User Registration
+         </font><br ><br><br>
+      
+        <div class="mydiv3">
+            <div class="inner">
+                <i class="fa fa-user fa-lg"></i>
+            <input type="text" class="input" placeholder="user name">
+            </div>
+           
+            <div class="inner">
+                <i class="fa fa-envelope icon"></i>
+                <input   type="email"   class="input" placeholder=" enter email">
+            </div>
+
+           <div class="inner">
+            <i class="fa fa-key fa-lg"></i>
+            <input type="password"  class="input" placeholder=" Enter password">
+           </div>
+            <div class="inner">
+                <i class="fa fa-key fa-lg"></i>
+                <input type="password"  class="input" placeholder="Re-enter password">
+            </div>
+            <div class="btn-div">
+                <button type="submit" class="btn">Registarer</button>
+            </div>
+            <br>
+            <span>Aready have Account ? <a href="Login.html" target="_blank"> Sign In</a></span>
+        </div>
+    </div></center>
+    </div>
+</body>
+</html>
